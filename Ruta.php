@@ -1,5 +1,5 @@
 <?php
-
+//Consulta tabla y campo.
 $sql="Select R.latitud,R.longitud,
                D.latitud, D.longitud
         from MapReciclador R INNER JOIN MapDonador D ON  R.id_MapReciclador = D.MapDonador
@@ -13,3 +13,12 @@ $sql="Select R.latitud,R.longitud,
         $latitud=$row["latitud"]
     } 
 ?>
+
+
+
+
+
+
+
+
+
